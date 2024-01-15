@@ -7,7 +7,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "cac21249a0c6373a1b742afb8dbc9cb7")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6333028254:AAET_fIthUY8C79uU5nyQGHcXNdbvhI7zZM")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Kc_File_Store_Bot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001806174534"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API')
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5720092781"))
