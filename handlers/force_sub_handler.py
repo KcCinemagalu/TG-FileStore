@@ -1,4 +1,4 @@
-# (c) @PredatorHackerzZ
+🙏# (c) @PredatorHackerzZ
 
 import asyncio
 from typing import (
@@ -44,8 +44,8 @@ async def handle_force_sub(bot: Client, cmd: Message):
             return 200
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**\n\n"
-                 "Due to Overload, Only Channel Subscribers can use this Bot!",
+            text="**Please Join My 𝙺𝙲 Updates Channel to use this Bot!**\n\n"
+                 "And You Will Get Kannada Movie Files Fast, Only Channel Subscribers can use this Bot!",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -61,7 +61,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something went Wrong. Contact my [Support Group](https://t.me/TeleRoid14).",
+            text="Something went Wrong. Contact my [Admin Support](https://t.me/KingKc18).",
             disable_web_page_preview=True
         )
         return 200
