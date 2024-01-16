@@ -1,4 +1,4 @@
-🙏# (c) @PredatorHackerzZ
+# (c) @PredatorHackerzZ
 
 import asyncio
 from typing import (
