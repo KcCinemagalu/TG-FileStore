@@ -74,8 +74,8 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Original Link", url=share_link),
                   InlineKeyboardButton("Short Link", url=short_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/TeleRoidGroup"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14")]]
+                 [InlineKeyboardButton("Movie Updates", url="https://t.me/Kc_Films_2024"),
+                  InlineKeyboardButton("Admin Support", url="https://t.me/KingKc18")]]
             ),
             disable_web_page_preview=True
         )
@@ -116,8 +116,8 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             reply_markup=InlineKeyboardMarkup(
                [[InlineKeyboardButton("Original Link", url=share_link),
                   InlineKeyboardButton("Short Link", url=short_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/TeleRoidGroup"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14")]]
+                 [InlineKeyboardButton("Movie Updates", url="https://t.me/Kc_Films_2024"),
+                  InlineKeyboardButton("Admin Support", url="https://t.me/KingKc18")]]
             ),
             disable_web_page_preview=True
         )
